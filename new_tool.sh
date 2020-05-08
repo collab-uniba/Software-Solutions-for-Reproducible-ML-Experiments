@@ -5,7 +5,7 @@
 
 mkdir tools/$1
 
-cp "kernels/Kaggle - Intro to ML.ipynb" "tools/${1}/Kaggle - Intro to ML.ipynb"
+cp "kernels/SampleNotebook_for_APItools.ipynb" "tools/${1}/Kaggle - Intro to ML.ipynb"
 
 cd tools/$1
 virtualenv "${1}_env"
