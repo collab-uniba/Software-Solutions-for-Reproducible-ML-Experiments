@@ -255,3 +255,4 @@ pip-selfcheck.json
 
 # PROJECT IGNORES
 *_env/
+mlruns/

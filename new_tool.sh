@@ -12,4 +12,6 @@ virtualenv "${1}_env"
 source "${1}_env/bin/activate"
 pip install -r ../../basic_requirements.txt
 
+ipython kernel install --user --name="${1}_env"
+
 echo "Environment for '${1}' is ready."
