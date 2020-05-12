@@ -1,0 +1,55 @@
+- model: iowa-houses
+  description: A simple model to predict Iowa houses sale price.
+
+  operations:
+
+    prepare:
+      description: Prepare data for the training step, selecting only numeric features and using simple imputation for missing values.
+      requires: dataset
+      main: src/prepare
+
+    train:
+      description: Train a DecisionTreeRegressor from the numeric features in the training set.
+      requires: prepared-data
+      main: src/train
+      output_scalars:
+        mae: 'MAE: (\value)'
+      
+    simple_DecisionTreeRegressor:
+      description: Runs baseline experiment end-to-end, using a Decision Tree Regressor with default hyperparameters.
+      steps:
+        - run: prepare
+        - run: train model_type=DecisionTreeRegressor random_state=0
+
+    optimized_DecisionTreeRegressor:
+      description: Runs an optimization attempt of baseline experiment based on the max_leaf_nodes hyperparameter of the DecisionTreeRegressor model type.
+      steps:
+        - run: prepare
+        - run: train model_type=DecisionTreeRegressor random_state=0 max_leaf_nodes="[5, 25, 50, 100, 250, 500]"
+        
+    simple_RandomForestRegressor:
+      description: Runs the experiment end-to-end, this time using a Random Forest Regressor with default hyperparameters.
+      steps:
+        - run: prepare
+        - run: train model_type=RandomForestRegressor random_state=0
+
+
+  resources:
+
+    dataset:
+      description: Raw data files.
+      sources:
+        - input/train.csv
+        - input/test.csv
+      path: input
+
+    prepared-data:
+      description: Data ready for the training step.
+      path: prepared
+      sources:
+        - operation: prepare
+          select:
+            - prepared/X_train.pkl
+            - prepared/y_train.pkl
+            - prepared/X_valid.pkl
+            - prepared/y_valid.pkl

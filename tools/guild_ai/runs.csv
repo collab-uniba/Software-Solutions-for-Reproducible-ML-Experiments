@@ -1,0 +1,15 @@
+run,operation,started,time,status,label,max_leaf_nodes,model_type,random_state,step,MAE
+6512a192,iowa-houses:train,2020-05-12 19:42:26,0:00:01,completed,model_type=RandomForestRegressor random_state=0,,RandomForestRegressor,0,0,19255.55859375
+536c6658,iowa-houses:prepare,2020-05-12 19:42:24,0:00:01,completed,,,,,,
+3819c481,iowa-houses:simple_RandomForestRegressor,2020-05-12 19:42:23,0:00:04,completed,,,,,0,19255.55859375
+20868b2c,iowa-houses:train,2020-05-12 19:42:06,0:00:01,completed,max_leaf_nodes=500 model_type=DecisionTreeRegressor random_state=0,500,DecisionTreeRegressor,0,0,27002.90234375
+55bdb58c,iowa-houses:train,2020-05-12 19:42:04,0:00:01,completed,max_leaf_nodes=250 model_type=DecisionTreeRegressor random_state=0,250,DecisionTreeRegressor,0,0,26265.67578125
+7b5142fc,iowa-houses:train,2020-05-12 19:42:02,0:00:01,completed,max_leaf_nodes=100 model_type=DecisionTreeRegressor random_state=0,100,DecisionTreeRegressor,0,0,25263.712890625
+f8ea6557,iowa-houses:train,2020-05-12 19:41:59,0:00:02,completed,max_leaf_nodes=50 model_type=DecisionTreeRegressor random_state=0,50,DecisionTreeRegressor,0,0,25853.568359375
+7f5f32ef,iowa-houses:train,2020-05-12 19:41:57,0:00:01,completed,max_leaf_nodes=25 model_type=DecisionTreeRegressor random_state=0,25,DecisionTreeRegressor,0,0,26285.341796875
+86f08287,iowa-houses:train,2020-05-12 19:41:56,0:00:01,completed,max_leaf_nodes=5 model_type=DecisionTreeRegressor random_state=0,5,DecisionTreeRegressor,0,0,32411.896484375
+44a4bfe2,iowa-houses:prepare,2020-05-12 19:41:53,0:00:01,completed,,,,,,
+fb2a6574,iowa-houses:optimized_DecisionTreeRegressor,2020-05-12 19:41:52,0:00:15,completed,,,,,0,27002.90234375
+4a786228,iowa-houses:train,2020-05-12 19:41:19,0:00:01,completed,model_type=DecisionTreeRegressor random_state=0,,DecisionTreeRegressor,0,0,26688.380859375
+fc6ace06,iowa-houses:prepare,2020-05-12 19:41:17,0:00:01,completed,,,,,,
+872e86a8,iowa-houses:simple_DecisionTreeRegressor,2020-05-12 19:41:16,0:00:04,completed,,,,,0,26688.380859375
