@@ -1,5 +1,9 @@
 # Software Solutions for Reproducible AI Projects
 
+- [Review notes](https://docs.google.com/document/d/1IqxJNosgm_bt80VXZ80sW9TmtF6ATCe6KUvctEQNSNg/edit?usp=sharing)
+- [Tool comparison matrix](https://docs.google.com/document/d/1APi4eQjMFzQmNYIg2ssJ0iEwabwWTsX1RAvJeEUfm5M/edit?usp=sharing)
+
+
 ## Software Solutions
 
 | Tool         | Type                  | Language                                | Reproducible  pipeline        | Code versioning             | Data exploration | Data provenance | Data  tracking | Exp. logging | Collab features        | Web dashb.       | Notebooks  support    | License     |
