@@ -3,7 +3,12 @@
 - [Review notes](https://docs.google.com/document/d/1IqxJNosgm_bt80VXZ80sW9TmtF6ATCe6KUvctEQNSNg/edit?usp=sharing)
 - [Tool comparison matrix](https://docs.google.com/document/d/1APi4eQjMFzQmNYIg2ssJ0iEwabwWTsX1RAvJeEUfm5M/edit?usp=sharing)
 
-## General
+## Tools Review
+
+### General
+
+The tool sample classified according to the features of the General category.
+
 <table>
 <thead>
   <tr>
@@ -145,7 +150,9 @@
 </table>
 
 
-## Analysis Support
+### Analysis Support
+
+The tool sample classified according to the features of the Analysis Support category. 
 
 <table>
 <thead>
@@ -308,7 +315,9 @@
 
 
 
-## Reproducibility Support
+### Reproducibility Support
+
+The tool sample classified according to the features of the Reproducibility Support category.
 
 <table>
 <thead>
