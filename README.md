@@ -308,31 +308,166 @@
 
 
 
-## Software Solutions
+## Reproducibility Support
 
-| Tool         | Type                  | Language                                | Reproducible  pipeline        | Code versioning             | Data exploration | Data provenance | Data  tracking | Exp. logging | Collab features        | Web dashb.       | Notebooks  support    | License     |
-|--------------|-----------------------|-----------------------------------------|-------------------------------|-----------------------------|------------------|-----------------|----------------|--------------|------------------------|------------------|-----------------------|-------------|
-| dvc          | CLI                   | Agnostic                                | Yes                           | Git                         | No               | Yes (?)         | Yes            | Yes          | -                      | No               | Jupyter (nbconvert)   | Apache 2.0  |
-| Guild.ai     | CLI                   | Python                                  | Yes                           | GitHub import               | No               | ~               | Yes            | Yes          | ~                      | Yes (local)      | -                     | Apache 2.0  |
-| Pachyderm    | CLI                   | Agnostic                                | Yes                           | Integrated                  |                  |                 | Yes            | Yes          | ?                      | Yes (local)*     | -                     | Apache 2.0  |
-| Comet.ml     | API                   | Python, Java (beta)                     | Partially  (via Git checkout) | Git                         |                  |                 | Yes            | Yes          | -                      | Yes              | Jupyter               | Proprietary |
-| MLflow       | API, CLI              | Python, Java, R, Rest                   | Yes                           | External                    |                  |                 | Yes            | Yes          | -                      | Yes (local)      | Can co-exist          | Apache 2.0  |
-| Neptune      | API                   | Python, R                               | No                            | External                    |                  |                 | Yes            | Yes          | Yes (teams, wiki)      | Yes              | Jupyter (Jupyter Lab) | Proprietary |
-| wandb        | API, CLI              | Python                                  | No                            | GitHub import               |                  |                 | No             | Yes          | Teams                  | Yes              | Jupyter               | Proprietary |
-| Valohai      | API, CLI              | Python (API), agnostic (CLI)            | Yes                           | Git import                  |                  |                 | Yes            | Yes          | -                      | Yes              | Jupyter (Jupyter Lab) | Proprietary |
-| Google Colab | Cloud IDE             | Python                                  | No                            | Google Drive, GitHub import |                  |                 | Google Drive   | No           | Sharing, co-editing    | Integrated       | Jupyter               | Proprietary |
-| dotscience   | Cloud IDE, API, CLI   | Python (Cloud IDE, API), agnostic (CLI) | No                            | GitHub import               |                  |                 | Yes            | Yes          | Fork&Pullfor notebooks | Integrated       | Jupyter               | Proprietary |
-| FloydHub     | Cloud IDE             | Python                                  | No                            | GitHub import               |                  |                 | Yes            | No           | Teams                  | Integrated       | Jupyter Lab           | Proprietary |
-| Domino       | Cloud IDE, API, CLI   | Python, R                               |                               |                             |                  |                 |                |              |                        | Yes              |                       | Proprietary |
-| Datmo        |                       |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| Spell.run    | CLI, Cloud IDE        |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| SirioML      | API (?)               |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| ModelChimp   | API                   | Python                                  | -                             | -                           |                  |                 | -              | -            | -                      | Yes (also local) | No                    | BSD 2.0     |
-| Polynote     | Cloud IDE             | Scala, Python, SQL                      | Yes                           | Unclear                     | Yes              | No              | No             | No           | No                     | Yes (local)      | Yes                   | Apache 2.0  |
-| DataRobot    | AutoML Cloud Platform |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| Kubeflow     | API, CLI              |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| databricks   | ?                     |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
-| H2O          | AutoML Cloud Platform |                                         |                               |                             |                  |                 |                |              |                        |                  |                       |             |
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Code Versioning</th>
+    <th>Data Access</th>
+    <th>Data Versioning</th>
+    <th>Experiment<br>Logging</th>
+    <th>Reproducible<br>Pipeline</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://dvc.org/">DVC</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +Remote (third-party)</td>
+    <td>Yes</td>
+    <td>Yes<br>(manual)</td>
+    <td>Yes<br>(automatic)</td>
+  </tr>
+  <tr>
+    <td><a href="http://guild.ai/">Guild AI</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +Remote (third-party)</td>
+    <td>Yes</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(configuration file)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.pachyderm.com/">Pachyderm</a></td>
+    <td>Yes<br>(integrated)</td>
+    <td>Local +Remote (third-party)</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td><a href="http://comet.ml/">Comet.ml</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +<br>Remote (internal)</td>
+    <td>Yes</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(automatic)</td>
+  </tr>
+  <tr>
+    <td><a href="https://mlflow.org/">MLflow</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +<br>Remote (third-party)</td>
+    <td>No</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(configuration file)</td>
+  </tr>
+  <tr>
+    <td><a href="https://neptune.ai/">Neptune</a></td>
+    <td>Yes<br>(integrated orexternal, git-based)</td>
+    <td>Local +<br>Remote (third-party)</td>
+    <td>No</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.wandb.com/">wandb</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +<br>Remote (internal orthird-party)</td>
+    <td>No</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Local +<br>Remote (third-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://valohai.com/">Valohai</a></td>
+    <td>Yes<br>(integrated or<br>external, git-based)</td>
+    <td>Local +<br>Remote (third-party*)</td>
+    <td>Yes</td>
+    <td>Yes<br>(manual)</td>
+    <td>Yes<br>(configuration file)</td>
+  </tr>
+  <tr>
+    <td><a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Google Colab</a></td>
+    <td>Yes<br>(file-sharing services - Google Drive)</td>
+    <td>Remote (internal orthird-party)</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.floydhub.com/">FloydHub</a></td>
+    <td>Yes (integrated orexternal, git-based)</td>
+    <td>Remote (internal orthird-party)</td>
+    <td>Yes</td>
+    <td>Yes<br>(manual)</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.dominodatalab.com/">Domino</a></td>
+    <td>Yes<br>(integrated)</td>
+    <td>Remote (internal orthird-party)</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes<br>(automatic)</td>
+  </tr>
+  <tr>
+    <td><a href="https://spell.run/">Spell.run</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Remote (internal orthird-party)</td>
+    <td>No</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(script)</td>
+  </tr>
+  <tr>
+    <td><a href="https://polynote.org/">Polynote</a></td>
+    <td>No</td>
+    <td>Local</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datarobot.com/">DataRobot</a></td>
+    <td>?</td>
+    <td>Remote</td>
+    <td>?</td>
+    <td>Yes<br>(automatic)</td>
+    <td>Yes<br>(built-in)</td>
+  </tr>
+  <tr>
+    <td><a href="https://databricks.com/">databricks</a></td>
+    <td>Yes (integrated orexternal, git-based)</td>
+    <td>Remote (internal orthird-party)</td>
+    <td>Yes</td>
+    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(script)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.h2o.ai/products/h2o-driverless-ai/">Driverless AI</a></td>
+    <td>Yes<br>(integrated)</td>
+    <td>Remote<br>(internal or third-party)</td>
+    <td>Yes</td>
+    <td>Yes<br>(automatic)</td>
+    <td>Yes<br>(built-in)</td>
+  </tr>
+  <tr>
+    <td><a href="https://rapidminer.com/">RapidMiner</a></td>
+    <td>Yes<br>(external, git-based)</td>
+    <td>Local +<br>Remote (third-party)</td>
+    <td>?</td>
+    <td>Yes<br>(automatic)</td>
+    <td>Yes<br>(visual or built-in)</td>
+  </tr>
+  <tr>
+    <td><a href="https://dstack.ai/">dstack.ai</a></td>
+    <td>No</td>
+    <td>Local +<br>Remote (internal)</td>
+    <td>Yes</td>
+    <td>Yes<br>(manual)</td>
+    <td>No</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Replication guide
