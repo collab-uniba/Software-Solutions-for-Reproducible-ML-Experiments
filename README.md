@@ -145,6 +145,169 @@
 </table>
 
 
+## Analysis Support
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Notebook support</th>
+    <th>Data Visualization</th>
+    <th>Web Dashboard</th>
+    <th>Collaboration mode</th>
+    <th>Computational<br>Resources</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://dvc.org/">DVC</a></td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Async<br>(push/pull commands)</td>
+    <td>Local</td>
+  </tr>
+  <tr>
+    <td><a href="http://guild.ai/">Guild AI</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(local)</td>
+    <td>Async<br>(push/pull commands)</td>
+    <td>Local +Remote<br>(third-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.pachyderm.com/">Pachyderm</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(local or remote)</td>
+    <td>Async<br>(push/pull commands)</td>
+    <td>Local +Remote (internal*)</td>
+  </tr>
+  <tr>
+    <td><a href="http://comet.ml/">Comet.ml</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>Async<br>(sharing of git commands to reproduce an experiment*)</td>
+    <td>Local + <br>Remote<br>(internal*)</td>
+  </tr>
+  <tr>
+    <td><a href="https://mlflow.org/">MLflow</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(local)</td>
+    <td>No</td>
+    <td>Local</td>
+  </tr>
+  <tr>
+    <td><a href="https://neptune.ai/">Neptune</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>Async (comments)</td>
+    <td>Local +<br>Remote (third-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.wandb.com/">wandb</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Local +<br>Remote<br>(internal)</td>
+  </tr>
+  <tr>
+    <td><a href="https://valohai.com/">Valohai</a></td>
+    <td>Yes<br>(on-premise orhosted)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote (internal orthird-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Google Colab</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Sync (co-editing) +<br>Async (comments)</td>
+    <td>Remote (internal orthird-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.floydhub.com/">FloydHub</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote (internal)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.dominodatalab.com/">Domino</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>Async (reviews)</td>
+    <td>Remote (internal)</td>
+  </tr>
+  <tr>
+    <td><a href="https://spell.run/">Spell.run</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote (internal orthird-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://polynote.org/">Polynote</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Local</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datarobot.com/">DataRobot</a></td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote<br>(internal or<br>third-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://databricks.com/">databricks</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>Yes</td>
+    <td>Yes<br>(remote)</td>
+    <td>Sync (co-editing) +<br>Async (comments)</td>
+    <td>Remote (internal or third-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.h2o.ai/products/h2o-driverless-ai/">Driverless AI</a></td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote (internal)</td>
+  </tr>
+  <tr>
+    <td><a href="https://rapidminer.com/">RapidMiner</a></td>
+    <td>Yes<br>(hosted)</td>
+    <td>Yes</td>
+    <td>Yes<br>(remote)</td>
+    <td>No</td>
+    <td>Remote (internal orthird-party)</td>
+  </tr>
+  <tr>
+    <td><a href="https://dstack.ai/">dstack.ai</a></td>
+    <td>Yes<br>(on-premise)</td>
+    <td>No</td>
+    <td>Yes<br>(remote)</td>
+    <td>Async (comments)</td>
+    <td>Local +<br>Remote<br>(internal)</td>
+  </tr>
+</tbody>
+</table>
+
+
+
 ## Software Solutions
 
 | Tool         | Type                  | Language                                | Reproducible  pipeline        | Code versioning             | Data exploration | Data provenance | Data  tracking | Exp. logging | Collab features        | Web dashb.       | Notebooks  support    | License     |
