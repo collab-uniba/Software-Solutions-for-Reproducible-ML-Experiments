@@ -1,7 +1,14 @@
 # Software Solutions for Reproducible AI Projects
 
-- [Review notes](https://docs.google.com/document/d/1IqxJNosgm_bt80VXZ80sW9TmtF6ATCe6KUvctEQNSNg/edit?usp=sharing)
-- [Tool comparison matrix](https://docs.google.com/document/d/1APi4eQjMFzQmNYIg2ssJ0iEwabwWTsX1RAvJeEUfm5M/edit?usp=sharing)
+This repository contains auxiliary material for the article: "Software Solutions for Reproducible AI Experiments".
+
+In the following sections of this README the full sample of tools is classified according to the features of the three category of the taxonomy which the article presents; for the reader's convenience, the taxonomy is shown in the following paragraph.
+
+The `tools/` folder contains environment teplates for the tools that require a local installation to be executed. To try the tools we used -- where possible -- a realistic case study inspired to the lessons of the [Kaggle's micro-courses](https://www.kaggle.com/learn/overview) "Intro to Machine Learning" and "Intermediate Machine Learning". The `kernels/` folder contains template notebooks implementing the case study, while the sample dataset is stored in the `input/` folder.
+
+## The Taxonomy
+
+ ![Taxonomy](./taxonomy.png)
 
 ## Tools Review
 
