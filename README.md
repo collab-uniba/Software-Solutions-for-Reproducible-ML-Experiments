@@ -3,6 +3,147 @@
 - [Review notes](https://docs.google.com/document/d/1IqxJNosgm_bt80VXZ80sW9TmtF6ATCe6KUvctEQNSNg/edit?usp=sharing)
 - [Tool comparison matrix](https://docs.google.com/document/d/1APi4eQjMFzQmNYIg2ssJ0iEwabwWTsX1RAvJeEUfm5M/edit?usp=sharing)
 
+## General
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Interaction Mode</th>
+    <th>Workflow Coverage</th>
+    <th>Languages</th>
+    <th>License</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://dvc.org/">DVC</a></td>
+    <td>CLI</td>
+    <td>All</td>
+    <td>Language agnostic</td>
+    <td>FLOSS<br>(Apache 2.0)</td>
+  </tr>
+  <tr>
+    <td><a href="http://guild.ai/">Guild AI</a></td>
+    <td>CLI, API</td>
+    <td>Data Preparation + Model Building</td>
+    <td>Python<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
+    <td>FLOSS<br>(Apache 2.0)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.pachyderm.com/">Pachyderm</a></td>
+    <td>CLI, API</td>
+    <td>All</td>
+    <td>Language agnostic</td>
+    <td>Community Ed.:<br>FLOSS<br>(Apache 2.0)<br>Enterprise Ed.:<br>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="http://comet.ml/">Comet.ml</a></td>
+    <td>API, CLI</td>
+    <td>Data Preparation + Model Building</td>
+    <td>Python, R, Java (beta)<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn, SageMaker</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://mlflow.org/">MLflow</a></td>
+    <td>API, CLI</td>
+    <td>All</td>
+    <td>Python, R, Java<br><br>Frameworks: Apache Spark, TensorFlow, PyTorch, Keras, Scikit-Learn, H2O</td>
+    <td>FLOSS<br>(Apache 2.0)</td>
+  </tr>
+  <tr>
+    <td><a href="https://neptune.ai/">Neptune</a></td>
+    <td>API, CLI</td>
+    <td>All</td>
+    <td>Language agnostic<br><br>Optimized for Python and R (API)<br><br>Frameworks: TensorFlow, PyTorch, Keras<br>MLflow, SageMaker</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.wandb.com/">wandb</a></td>
+    <td>API, CLI</td>
+    <td>Data Preparation + Model Building</td>
+    <td>Python</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://valohai.com/">Valohai</a></td>
+    <td>CLI, API</td>
+    <td>All</td>
+    <td>Language agnostic</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Google Colab</a></td>
+    <td>Cloud IDE</td>
+    <td>Data Preparation + Model Building</td>
+    <td>Python</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.floydhub.com/">FloydHub</a></td>
+    <td>Cloud IDE, API, CLI</td>
+    <td>All</td>
+    <td>Python<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.dominodatalab.com/">Domino</a></td>
+    <td>Cloud IDE, API, CLI</td>
+    <td>All</td>
+    <td>Python, R, Julia<br><br>Frameworks: TensorFlow, PyTorch, H2O, Apache Spark, Hadoop</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://spell.run/">Spell.run</a></td>
+    <td>Cloud IDE, CLI</td>
+    <td>All</td>
+    <td>Python<br><br>Frameworks: TensorFlow, Keras<br>Weights &amp; Biases</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://polynote.org/">Polynote</a></td>
+    <td>Cloud IDE</td>
+    <td>Data Preparation + Model Building</td>
+    <td>Scala, Python, SQL<br><br>Frameworks: Apache Spark</td>
+    <td>FLOSS<br>(Apache 2.0)</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datarobot.com/" target="_blank" rel="noopener noreferrer">DataRobot</a></td>
+    <td>AutoML Platform</td>
+    <td>All</td>
+    <td>Language agnostic<br>(Python API)</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://databricks.com/">databricks</a></td>
+    <td>Cloud IDE, API, CLI</td>
+    <td>All</td>
+    <td>Python, R, Scala, SQL<br><br>Frameworks: Apache Spark, MLflow, Delta Lake, TensorFlow</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.h2o.ai/products/h2o-driverless-ai/">Driverless AI</a></td>
+    <td>AutoML Platform</td>
+    <td>All</td>
+    <td>(Python recipes)</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://rapidminer.com/">RapidMiner</a></td>
+    <td>AutoML Platform</td>
+    <td>All</td>
+    <td>(Python and R for<br>custom code)</td>
+    <td>Proprietary</td>
+  </tr>
+  <tr>
+    <td><a href="https://dstack.ai/">dstack.ai</a></td>
+    <td>API</td>
+    <td>Data Preparation</td>
+    <td>Python, R</td>
+    <td>Proprietary</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## Software Solutions
 
