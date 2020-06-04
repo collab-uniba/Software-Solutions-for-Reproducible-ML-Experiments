@@ -486,7 +486,7 @@ The tool sample classified according to the features of the Reproducibility Supp
 </table>
 
 
-## Replication guide
+## Setup instructions
 
 To try one of the reviewed tools, follow these steps:
 
