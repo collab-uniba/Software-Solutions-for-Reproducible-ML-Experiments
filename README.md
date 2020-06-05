@@ -38,7 +38,7 @@ The tool sample classified according to the features of the General category.
     <td><a href="http://guild.ai/">Guild AI</a></td>
     <td>CLI, API</td>
     <td>Data Preparation + Model Building</td>
-    <td>Python<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
+    <td>Python<br><br>Built-in framework support: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
     <td>FLOSS<br>(Apache 2.0)</td>
   </tr>
   <tr>
@@ -52,21 +52,21 @@ The tool sample classified according to the features of the General category.
     <td><a href="http://comet.ml/">Comet.ml</a></td>
     <td>API, CLI</td>
     <td>Data Preparation + Model Building</td>
-    <td>Python, R, Java (beta)<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn, SageMaker</td>
+    <td>Python, R, Java (beta)<br><br>Built-in framework support: TensorFlow, PyTorch, Keras, Scikit-Learn, SageMaker</td>
     <td>Proprietary</td>
   </tr>
   <tr>
     <td><a href="https://mlflow.org/">MLflow</a></td>
     <td>API, CLI</td>
     <td>All</td>
-    <td>Python, R, Java<br><br>Frameworks: Apache Spark, TensorFlow, PyTorch, Keras, Scikit-Learn, H2O</td>
+    <td>Python, R, Java<br><br>Built-in framework support: Apache Spark, TensorFlow, PyTorch, Keras, Scikit-Learn, H2O</td>
     <td>FLOSS<br>(Apache 2.0)</td>
   </tr>
   <tr>
     <td><a href="https://neptune.ai/">Neptune</a></td>
     <td>API, CLI</td>
     <td>All</td>
-    <td>Language agnostic<br><br>Optimized for Python and R (API)<br><br>Frameworks: TensorFlow, PyTorch, Keras<br>MLflow, SageMaker</td>
+    <td>Language agnostic (CLI)<br><br>Python and R (API)<br><br>Built-in framework support: TensorFlow, PyTorch, Keras<br>MLflow, SageMaker</td>
     <td>Proprietary</td>
   </tr>
   <tr>
@@ -94,32 +94,32 @@ The tool sample classified according to the features of the General category.
     <td><a href="https://www.floydhub.com/">FloydHub</a></td>
     <td>Cloud IDE, API, CLI</td>
     <td>All</td>
-    <td>Python<br><br>Frameworks: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
+    <td>Python<br><br>Built-in framework support: TensorFlow, PyTorch, Keras, Scikit-Learn</td>
     <td>Proprietary</td>
   </tr>
   <tr>
     <td><a href="https://www.dominodatalab.com/">Domino</a></td>
     <td>Cloud IDE, API, CLI</td>
     <td>All</td>
-    <td>Python, R, Julia<br><br>Frameworks: TensorFlow, PyTorch, H2O, Apache Spark, Hadoop</td>
+    <td>Python, R, Julia<br><br>Built-in framework support: TensorFlow, PyTorch, H2O, Apache Spark, Hadoop</td>
     <td>Proprietary</td>
   </tr>
   <tr>
     <td><a href="https://spell.run/">Spell.run</a></td>
     <td>Cloud IDE, CLI</td>
     <td>All</td>
-    <td>Python<br><br>Frameworks: TensorFlow, Keras<br>Weights &amp; Biases</td>
+    <td>Python<br><br>Built-in framework support: TensorFlow, Keras<br>Weights &amp; Biases</td>
     <td>Proprietary</td>
   </tr>
   <tr>
     <td><a href="https://polynote.org/">Polynote</a></td>
-    <td>Cloud IDE</td>
+    <td>Web-based IDE</td>
     <td>Data Preparation + Model Building</td>
-    <td>Scala, Python, SQL<br><br>Frameworks: Apache Spark</td>
+    <td>Scala, Python, SQL<br><br>Built-in framework support: Apache Spark</td>
     <td>FLOSS<br>(Apache 2.0)</td>
   </tr>
   <tr>
-    <td><a href="https://www.datarobot.com/" target="_blank" rel="noopener noreferrer">DataRobot</a></td>
+    <td><a href="https://www.datarobot.com/">DataRobot</a></td>
     <td>AutoML Platform</td>
     <td>All</td>
     <td>Language agnostic<br>(Python API)</td>
@@ -129,7 +129,7 @@ The tool sample classified according to the features of the General category.
     <td><a href="https://databricks.com/">databricks</a></td>
     <td>Cloud IDE, API, CLI</td>
     <td>All</td>
-    <td>Python, R, Scala, SQL<br><br>Frameworks: Apache Spark, MLflow, Delta Lake, TensorFlow</td>
+    <td>Python, R, Scala, SQL<br><br>Built-in framework support: Apache Spark, MLflow, Delta Lake, TensorFlow</td>
     <td>Proprietary</td>
   </tr>
   <tr>
@@ -153,8 +153,16 @@ The tool sample classified according to the features of the General category.
     <td>Python, R</td>
     <td>Proprietary</td>
   </tr>
+  <tr>
+    <td><a href="https://dotscience.com/"><strike>Dotscience</strike></a></td>
+    <td><strike>Cloud IDE, API, CLI</strike></td>
+    <td><strike>All</strike></td>
+    <td><strike>Language agnostic (CLI)<br>Python (Cloud IDE, API)</strike></td>
+    <td><strike>Proprietary</strike></td>
+  </tr>
 </tbody>
 </table>
+
 
 
 ### Analysis Support
@@ -187,7 +195,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(local)</td>
     <td>Async<br>(push/pull commands)</td>
-    <td>Local +Remote<br>(third-party)</td>
+    <td>Local</td>
   </tr>
   <tr>
     <td><a href="https://www.pachyderm.com/">Pachyderm</a></td>
@@ -195,15 +203,15 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(local or remote)</td>
     <td>Async<br>(push/pull commands)</td>
-    <td>Local +Remote (internal*)</td>
+    <td>Local +<br>On-premise +<br>Remote (in-house*)</td>
   </tr>
   <tr>
     <td><a href="http://comet.ml/">Comet.ml</a></td>
     <td>Yes<br>(on-premise)</td>
     <td>No</td>
     <td>Yes<br>(remote)</td>
-    <td>Async<br>(sharing of git commands to reproduce an experiment*)</td>
-    <td>Local + <br>Remote<br>(internal*)</td>
+    <td>No</td>
+    <td>Local + <br>On-premise* +<br>Remote*<br>(in-house)</td>
   </tr>
   <tr>
     <td><a href="https://mlflow.org/">MLflow</a></td>
@@ -211,7 +219,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(local)</td>
     <td>No</td>
-    <td>Local</td>
+    <td>Local +<br>On-premise</td>
   </tr>
   <tr>
     <td><a href="https://neptune.ai/">Neptune</a></td>
@@ -219,7 +227,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>Async (comments)</td>
-    <td>Local +<br>Remote (third-party)</td>
+    <td>On-premise* +<br>Remote (in-house)</td>
   </tr>
   <tr>
     <td><a href="https://www.wandb.com/">wandb</a></td>
@@ -227,7 +235,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Local +<br>Remote<br>(internal)</td>
+    <td>On-premise* +Remote<br>(in-house)</td>
   </tr>
   <tr>
     <td><a href="https://valohai.com/">Valohai</a></td>
@@ -235,15 +243,15 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote (internal orthird-party)</td>
+    <td>On-premise* +<br>Remote (in-house)</td>
   </tr>
   <tr>
     <td><a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Google Colab</a></td>
-    <td>Yes<br>(hosted)</td>
+    <td>Yes<br>(on-premise orhosted)</td>
     <td>No</td>
     <td>No</td>
     <td>Sync (co-editing) +<br>Async (comments)</td>
-    <td>Remote (internal orthird-party)</td>
+    <td>Local +<br>Remote (in-house or third-party)</td>
   </tr>
   <tr>
     <td><a href="https://www.floydhub.com/">FloydHub</a></td>
@@ -251,7 +259,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote (internal)</td>
+    <td>On-premise* +<br>Remote (in-house)</td>
   </tr>
   <tr>
     <td><a href="https://www.dominodatalab.com/">Domino</a></td>
@@ -259,7 +267,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>Async (reviews)</td>
-    <td>Remote (internal)</td>
+    <td>Remote (in-house*)</td>
   </tr>
   <tr>
     <td><a href="https://spell.run/">Spell.run</a></td>
@@ -267,7 +275,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote (internal orthird-party)</td>
+    <td>On-premise* +<br>Remote (in-house)</td>
   </tr>
   <tr>
     <td><a href="https://polynote.org/">Polynote</a></td>
@@ -283,7 +291,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>Yes</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote<br>(internal or<br>third-party)</td>
+    <td>On-premise* +<br>Remote*<br>(in-house or<br>third-party)</td>
   </tr>
   <tr>
     <td><a href="https://databricks.com/">databricks</a></td>
@@ -291,7 +299,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>Yes</td>
     <td>Yes<br>(remote)</td>
     <td>Sync (co-editing) +<br>Async (comments)</td>
-    <td>Remote (internal or third-party)</td>
+    <td>Remote* (third-party)</td>
   </tr>
   <tr>
     <td><a href="https://www.h2o.ai/products/h2o-driverless-ai/">Driverless AI</a></td>
@@ -299,7 +307,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>Yes</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote (internal)</td>
+    <td>Remote* (in-house or third-party)</td>
   </tr>
   <tr>
     <td><a href="https://rapidminer.com/">RapidMiner</a></td>
@@ -307,7 +315,7 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>Yes</td>
     <td>Yes<br>(remote)</td>
     <td>No</td>
-    <td>Remote (internal orthird-party)</td>
+    <td>Local +<br>Remote* (in-house or third-party)</td>
   </tr>
   <tr>
     <td><a href="https://dstack.ai/">dstack.ai</a></td>
@@ -315,7 +323,15 @@ The tool sample classified according to the features of the Analysis Support cat
     <td>No</td>
     <td>Yes<br>(remote)</td>
     <td>Async (comments)</td>
-    <td>Local +<br>Remote<br>(internal)</td>
+    <td>On-premise* +<br>Remote<br>(in-house)</td>
+  </tr>
+  <tr>
+    <td><a href="https://dotscience.com/"><strike>Dotscience</strike></a></td>
+    <td><strike>Yes<br>(hosted)</strike></td>
+    <td><strike>No</strike></td>
+    <td><strike>Yes<br>(remote)</strike></td>
+    <td><strike>Async<br>(Fork&amp;Pull for notebooks)</strike></td>
+    <td><strike>On-premise* +<br>Remote (in-house or third-party*)</strike></td>
   </tr>
 </tbody>
 </table>
@@ -351,7 +367,7 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes<br>(external, git-based)</td>
     <td>Local +Remote (third-party)</td>
     <td>Yes</td>
-    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(hybrid)</td>
     <td>Yes<br>(configuration file)</td>
   </tr>
   <tr>
@@ -367,15 +383,15 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes<br>(external, git-based)</td>
     <td>Local +<br>Remote (internal)</td>
     <td>Yes</td>
-    <td>Yes<br>(semi-automatic)</td>
-    <td>Yes<br>(automatic)</td>
+    <td>Yes<br>(hybrid)</td>
+    <td>?</td>
   </tr>
   <tr>
     <td><a href="https://mlflow.org/">MLflow</a></td>
     <td>Yes<br>(external, git-based)</td>
     <td>Local +<br>Remote (third-party)</td>
     <td>No</td>
-    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(hybrid)</td>
     <td>Yes<br>(configuration file)</td>
   </tr>
   <tr>
@@ -383,7 +399,7 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes<br>(integrated orexternal, git-based)</td>
     <td>Local +<br>Remote (third-party)</td>
     <td>No</td>
-    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(hybrid)</td>
     <td>No</td>
   </tr>
   <tr>
@@ -391,7 +407,7 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes<br>(external, git-based)</td>
     <td>Local +<br>Remote (internal orthird-party)</td>
     <td>No</td>
-    <td>Yes<br>(semi-automatic)</td>
+    <td>Yes<br>(hybrid)</td>
     <td>Local +<br>Remote (third-party)</td>
   </tr>
   <tr>
@@ -430,8 +446,8 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td><a href="https://spell.run/">Spell.run</a></td>
     <td>Yes<br>(external, git-based)</td>
     <td>Remote (internal orthird-party)</td>
-    <td>No</td>
-    <td>Yes<br>(semi-automatic)</td>
+    <td>?</td>
+    <td>Yes<br>(hybrid)</td>
     <td>Yes<br>(script)</td>
   </tr>
   <tr>
@@ -455,8 +471,8 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes (integrated orexternal, git-based)</td>
     <td>Remote (internal orthird-party)</td>
     <td>Yes</td>
-    <td>Yes<br>(semi-automatic)</td>
-    <td>Yes<br>(script)</td>
+    <td>Yes<br>(hybrid)</td>
+    <td>?</td>
   </tr>
   <tr>
     <td><a href="https://www.h2o.ai/products/h2o-driverless-ai/">Driverless AI</a></td>
@@ -482,8 +498,22 @@ The tool sample classified according to the features of the Reproducibility Supp
     <td>Yes<br>(manual)</td>
     <td>No</td>
   </tr>
+  <tr>
+    <td><a href="https://dotscience.com/"><strike>Dotscience</strike></a></td>
+    <td><strike>Yes<br>(integrated)</strike></td>
+    <td><strike>Remote<br>(internal or third-party)</strike></td>
+    <td><strike>Yes</strike></td>
+    <td><strike>Yes<br>(manual)</strike></td>
+    <td><strike>Yes<br>(automatic)</strike></td>
+  </tr>
 </tbody>
 </table>
+
+
+\* = only available in paid plans
+
+N.B.: Rows related to Dotscience are strike-through because the service seems to be shutting down. We read [this blog post](https://dotscience.com/blog/2020-05-19-dotscience-is-shutting-down/) a few days after our trial.
+
 
 
 ## Setup instructions
