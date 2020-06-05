@@ -247,7 +247,7 @@ The tool sample classified according to the features of the Analysis Support cat
   </tr>
   <tr>
     <td><a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">Google Colab</a></td>
-    <td>Yes<br>(on-premise orhosted)</td>
+    <td>Yes<br>(hosted)</td>
     <td>No</td>
     <td>No</td>
     <td>Sync (co-editing) +<br>Async (comments)</td>
