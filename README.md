@@ -4,7 +4,7 @@ This repository contains auxiliary material for the article: "Software Solutions
 
 In the following sections of this README the full sample of tools is classified according to the features of the three category of the taxonomy which the article presents; for the reader's convenience, the taxonomy is shown in the following paragraph.
 
-The `tools/` folder contains environment teplates for the tools that require a local installation to be executed. To try the tools we used -- where possible -- a realistic case study inspired to the lessons of the [Kaggle's micro-courses](https://www.kaggle.com/learn/overview) "Intro to Machine Learning" and "Intermediate Machine Learning". The `kernels/` folder contains template notebooks implementing the case study, while the sample dataset is stored in the `input/` folder.
+The `tools/` folder contains environment templates for the tools that require a local installation to be executed. To try the tools we used -- where possible -- a realistic case study inspired to the lessons of the [Kaggle's micro-courses](https://www.kaggle.com/learn/overview) "Intro to Machine Learning" and "Intermediate Machine Learning". The `kernels/` folder contains template notebooks implementing the case study, while the sample dataset is stored in the `input/` folder.
 
 ## The Taxonomy
 
