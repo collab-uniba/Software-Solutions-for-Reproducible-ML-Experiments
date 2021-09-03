@@ -1,4 +1,4 @@
-# Software Solutions for Reproducible AI Projects
+# Software Solutions for Reproducible ML Experiments
 
 This repository contains auxiliary material for the article: "Software Solutions for Reproducible AI Experiments".
 
