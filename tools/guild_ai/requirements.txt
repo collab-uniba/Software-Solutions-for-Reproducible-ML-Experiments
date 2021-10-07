@@ -39,7 +39,7 @@ six==1.14.0
 tabview==1.4.4
 tensorboard==2.2.1
 tensorboard-plugin-wit==1.6.0.post3
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.20
 Werkzeug==1.0.1
 zipp==3.1.0
