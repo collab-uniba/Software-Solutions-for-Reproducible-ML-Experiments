@@ -1,10 +1,15 @@
 # Software Solutions for Reproducible ML Experiments
 
-This repository contains auxiliary material for the article: "Software Solutions for Reproducible AI Experiments".
+This repository contains auxiliary material for the article: ["A Taxonomy of Tools for Reproducible Machine Learning Experiments"](http://ceur-ws.org/Vol-3078/paper-81.pdf) by Luigi Quaranta, Fabio Calefato, and Filippo Lanubile.
 
-In the following sections of this README the full sample of tools is classified according to the features of the three category of the taxonomy which the article presents; for the reader's convenience, the taxonomy is shown in the following paragraph.
+In the following of this README, the full sample of analyzed tools is classified according to the features from the taxonomy presented in the paper; for the reader's convenience, a figure representing the taxonomy is also displayed in the following paragraph.
 
-The `tools/` folder contains environment templates for the tools that require a local installation to be executed. To try the tools we used -- where possible -- a realistic case study inspired to the lessons of the [Kaggle's micro-courses](https://www.kaggle.com/learn/overview) "Intro to Machine Learning" and "Intermediate Machine Learning". The `kernels/` folder contains template notebooks implementing the case study, while the sample dataset is stored in the `input/` folder.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The tool categorization reported in this README as well as the figure representing the taxonomy are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+Please, include the following citation if you intend to (re)use our work:
+
+> L. Quaranta, F. Calefato and F. Lanubile, *“A Taxonomy of Tools for Reproducible Machine Learning Experiments,”* Proceedings of the AIxIA 2021 Discussion Papers Workshop (AIxIA DP 2021), 2021, pp. 65-76, online: [CEUR-WS.org/Vol-3078/paper-81.pdf](http://ceur-ws.org/Vol-3078/paper-81.pdf).
 
 ## The Taxonomy
 
@@ -514,7 +519,11 @@ The tool sample classified according to the features of the Reproducibility Supp
 
 N.B.: Rows related to Dotscience are strike-through because the service seems to be shutting down. We read [this blog post](https://dotscience.com/blog/2020-05-19-dotscience-is-shutting-down/) a few days after our trial.
 
+---
 
+# Repository contents
+
+The `tools/` folder contains environment templates for the tools that require a local installation to be executed. To try the tools we used -- where possible -- a realistic case study inspired to the lessons of the [Kaggle's micro-courses](https://www.kaggle.com/learn/overview) "Intro to Machine Learning" and "Intermediate Machine Learning". The `kernels/` folder contains template notebooks implementing the case study, while the sample dataset is stored in the `input/` folder.
 
 ## Setup instructions
 
