@@ -5,7 +5,7 @@ click==6.7
 clint==0.5.1
 floyd-cli==0.11.17
 idna==2.9
-joblib==0.14.1
+joblib==1.2.0
 marshmallow==2.21.0
 numpy==1.22.0
 pandas==1.0.3
