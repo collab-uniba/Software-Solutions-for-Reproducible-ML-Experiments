@@ -15,7 +15,7 @@ pandas==1.0.3
 pyrsistent==0.16.0
 python-dateutil==2.8.1
 pytz==2020.1
-requests==2.23.0
+requests==2.31.0
 scikit-learn==0.22.2.post1
 scipy==1.10.0
 six==1.14.0
