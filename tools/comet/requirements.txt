@@ -20,6 +20,6 @@ scikit-learn==0.22.2.post1
 scipy==1.10.0
 six==1.14.0
 typing-extensions==3.7.4.2
-urllib3==1.26.5
+urllib3==1.26.17
 websocket-client==0.57.0
 wurlitzer==2.0.0
